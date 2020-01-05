@@ -125,9 +125,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    public String getToken(Context context) {
-        return context.getSharedPreferences("_", MODE_PRIVATE).getString("fcm_token", "empty");
-    }
 
     @Override
     public void onStart() {
@@ -139,6 +136,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             getAddress();
         }
     }
+
+    //retrieve firebase token
 
     private void retrieveFCMToken(){
         FirebaseInstanceId.getInstance().getInstanceId()
