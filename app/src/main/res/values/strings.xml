@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SendPlacesPosition</string>
+    <string name="entrez_le_nom_de_la_place">Entrez le nom de la place</string>
+    <string name="permission_rationale">Vous devez accordez une permission pour acceder à votre position</string>
+    <string name="permission_denied_explanation">Permission réfusée</string>
+    <string name="settings">Paramètres</string>
+    <string name="no_place_found">Aucune place trouvée</string>
+    <string name="hint_entrer_un_lieu">Veuillez renseigner le nom du lieu</string>
+    <string name="no_distance">aucune distance trouvée</string>
+    <string name="sauvegardez">Sauvegardez</string>
+    <string name="informations_gps_sur_la_places">Informations GPS sur la places</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="default_notification_channel_name">Labo</string>
+    <string name="fcm_token_text">Get FCM Token</string>
+</resources>
